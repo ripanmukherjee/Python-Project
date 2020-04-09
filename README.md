@@ -10,3 +10,5 @@ This repository is having different project written in python
 3. project-3-validation-name : Python scripts that check the first char of the usename and return 'True' if first char is letter and 'False' otherwise.
 
 4. project-4-calculator-python : Python scrips that use tkinter module to create a calculator application"
+
+5. project-5-subprocess-rsync : Python scripts that use subprocess and multiprocessing module to move the file from one directory to another directory by using rsync process. And also this scitps use multiprocessing to do process in parallel. os.wait module has used which generates the file names in a directory tree by walking the tree either top-down or bottom-up. This is used to traverse the file system in Python.
