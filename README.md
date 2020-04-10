@@ -12,3 +12,5 @@ This repository is having different project written in python
 4. project-4-calculator-python : Python scrips that use tkinter module to create a calculator application"
 
 5. project-5-subprocess-rsync : Python scripts that use subprocess and multiprocessing module to move the file from one directory to another directory by using rsync process. And also this scitps use multiprocessing to do process in parallel. os.wait module has used which generates the file names in a directory tree by walking the tree either top-down or bottom-up. This is used to traverse the file system in Python.
+
+6. project-6-improving-python-code : Python scripts that download csv file from website directly and store the data into list. Later import that list to csv via csv reader and then do bunch of activity such as check the employee's joining date and print a report as per user input start date.
