@@ -1,0 +1,4 @@
+Techno India Saltlake kolkata
+Ripan Kumar
+2020-01-01
+Nice work! You've successfully displayed customer reviews on the company website by writing a Python script that automatically uploads feedback in the form of a text file to a running web server.
