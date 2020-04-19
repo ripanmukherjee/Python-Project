@@ -77,28 +77,28 @@ def main(argv):
   """Process the JSON data and generate a full report out of it."""
   data = load_data("car_sales.json")
   summary = process_data(data)
-  print(summary)
+  #print(summary)
 
   ## For PDF generation
-  table_data = cars_dict_to_table(data)
-  subject_details = "Sales summary for last month"
-  table_summary = ""
+  PDF_table_data = cars_dict_to_table(data)
+  PDF_title_subject = "Sales summary for last month"
+  PDF_paragraph_summary = ""
   for text in summary:
-      table_summary = table_summary+"<br/>"+text
+      PDF_paragraph_summary = PDF_paragraph_summary+"<br/>"+text
 
-  print(table_summary)
+  #print(table_summary)
 
-  reports.generate("cars.pdf", subject_details, table_summary, table_data)
+  reports.generate("cars.pdf", PDF_title_subject, PDF_paragraph_summary, PDF_table_data)
 
   ## For Email Sending
   #sender = "automation@example.com"
   #receiver = "{}@example.com".format(os.environ.get('USER'))
-  subject = subject_details
-  body = ""
+  email_subject = PDF_title_subject
+  email_body = ""
   for text in summary:
-      body = body+"\n"+text
+      email_body = email_body+"\n"+text
 
-  #message = emails.generate(sender, receiver, subject, body, "cars.pdf")
+  #message = emails.generate(sender, receiver, email_subject, email_body, "cars.pdf")
   #emails.send(message)
 
 if __name__ == "__main__":
