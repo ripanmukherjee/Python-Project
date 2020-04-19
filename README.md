@@ -21,3 +21,5 @@ This repository is having different project written in python
 '''https://pillow.readthedocs.io/en/stable/reference/Image.html'''
 
 8. project-8-response-request : Python scripts that use OS module to process a directory of text files, Manage information stored in Python dictionaries, Use the Python requests module to upload content to a running Web service using request POST.
+
+9. project-9-report-pdf-email : Python scripts that use to Generate a PDF report from a json file and send it by Email
