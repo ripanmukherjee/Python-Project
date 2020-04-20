@@ -1,3 +1,10 @@
+To download the file from the supplier onto our linux-instance virtual machine we will first grant executable permission to the download_drive_file.sh script.
+
+
+>>> $  sudo chmod +x ~/download_drive_file.sh
+>>> $ ./download_drive_file.sh 1LePo57dJcgzoK4uiI_48S01Etck7w_5f supplier-data.tar.gz
+>>> $ tar xf ~/supplier-data.tar.gz
+
 To test out your script, you can install the stress tool.
 >>> $ sudo apt install stress
 
