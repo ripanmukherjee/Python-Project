@@ -22,4 +22,6 @@ This repository is having different project written in python
 
 8. project-8-response-request : Python scripts that use OS module to process a directory of text files, Manage information stored in Python dictionaries, Use the Python requests module to upload content to a running Web service using request POST.
 
-9. project-9-report-pdf-email : Python scripts that use to Generate a PDF report from a json file and send it by Email
+9. project-9-report-pdf-email : Python scripts that use to Generate a PDF report from a json file and send it by Email.
+
+10. project-10-automate-updating-catalog-information : Python Scripts that summarizes and processes sales data into different categories, Generate a PDF using Python, Automatically send a PDF by email and Write a script to check the health status of the system
