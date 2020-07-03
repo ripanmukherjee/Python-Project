@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CareGo Robotic Greeter</title>
+</head>
+<body>
+<a class="navbar-brand" rel="home" href="/"><img class="logo" src="https://carego.com/wp-content/themes/carego/img/logo.jpg" alt="Logo" title="Logo" /></a>
+    <h3>Hello!! I am TELIA, here for help you.</h3>
+    <ul>
+        <li><a href="{{ url_for('base') }}">Home</a></li>
+        <li><a href="{{ url_for('add') }}">New User</a></li>
+        <li><a href="{{ url_for('search') }}">Search</a></li>
+        <li><a href="{{ url_for('modify') }}">Modify User</a></li>
+    </ul>
+
+    {% block main %}
+        <p>This is home Page</p>
+    {% endblock %}
+
+
+</body>
+</html>
