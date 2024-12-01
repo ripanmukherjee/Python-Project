@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-import re
-import sys
 import csv
-import os
+import re
 
 mainfile = "syslog.log"
 errorfile = "errorlog.out"
